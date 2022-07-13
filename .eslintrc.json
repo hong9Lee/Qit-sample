@@ -1,0 +1,31 @@
+{
+  "env": {
+    //미리 정의 된 전역 변수를 정의
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "airbnb-base", //구성 지정
+  //airbnb vs airbnb-base 의 차이는, airbnb-base 에는 리액트 관련 규칙이 들어있지 않다는 점 입니다.
+
+  "plugins": ["javascript"], //플러그인은 일반적으로 규칙을 내보내는 NPM 패키지
+  "rules": {
+    "no-undef": "off", //선언되지 않은 변수 허용
+    "no-console": "off", //console을 사용처리
+    "linebreak-style": "off", //  "\n" 와"\r\n" 같음 처리(윈도우와 리눅스가 서로 다름)
+    "max-len": ["error", { "code": 200, "tabWidth": 4 }], //최대 한줄에 200글자 ,탭 문자의 문자 너비 4칸
+    "no-plusplus": "off", //++허용
+    "indent": ["error", 4], // 들여쓰기 4칸
+    "no-await-in-loop": "off", //for문에서 await 허용
+    "no-restricted-syntax": "off", //지정된 구문 허용
+    "no-underscore-dangle": "off", //식별자에 매달린 밑줄을 허용
+    "consistent-return": "off", //return값을 지정하지 않아도됌
+    "no-param-reassign": "off", // 매개변수 재할당 허용
+    "prefer-destructuring": "error", //배열 및 객체의 구조 분해 const numTotal = matchResult.numTotal; => const { numTotal } = matchResult;
+    "prettier/prettier": 0, //prettier 에 대한 경고 끄기
+    "for-direction": 2, // for 루프가 무한대로 실행되는 것을 방지
+    "no-async-promise-executor": "off", //promise 안에 await 허용
+    "no-loop-func": "off"
+  }
+}

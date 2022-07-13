@@ -1,0 +1,48 @@
+{
+    "SOURCE_FILE": "sample.xlsx",
+    "SAVE_PATH": "",
+    "DEBUG_LEVEL": "info", 
+    "OPTIONS": {
+        "LEVEL": 0,
+        "SPEED":"exact",
+        "PARAMS": {}
+    },
+
+    "DOMAIN_ID": "taekwondo_nm",
+    "keit_rcms":{
+        "TEANA_DIALOGUE": [{"IP": "192.168.0.5","PORT": "5001"}],
+        "ELASTICSEARCH_HOST": [{"IP": "192.168.0.5","PORT": "5500"}]
+    },
+    "ys_severance":{
+        "TEANA_DIALOGUE": [{"IP": "192.168.0.5","PORT": "5001"}],
+        "ELASTICSEARCH_HOST": [{"IP": "192.168.0.5","PORT": "5500"}]
+    },
+    "ics_test":{
+        "TEANA_DIALOGUE": [{"IP": "192.168.0.5","PORT": "5001"}],
+        "ELASTICSEARCH_HOST": [{"IP": "192.168.0.5","PORT": "5500"}]
+    },
+    "test_0528":{
+        "TEANA_DIALOGUE": [{"IP": "192.168.0.21","PORT": "7002"}],
+        "ELASTICSEARCH_HOST": [{"IP": "192.168.0.21","PORT": "7600"}]
+    },
+    "changwon":{
+        "TEANA_DIALOGUE": [{"IP": "192.168.0.5","PORT": "5001"}],
+        "ELASTICSEARCH_HOST": [{"IP": "192.168.0.5","PORT": "5500"}]
+    },
+    "healing_bot":{
+        "TEANA_DIALOGUE": [{"IP": "192.168.0.5","PORT": "5001"}],
+        "ELASTICSEARCH_HOST": [{"IP": "192.168.0.5","PORT": "5500"}]
+    },
+    "gugak_nm":{
+        "TEANA_DIALOGUE": [{"IP": "192.168.0.5","PORT": "5002"}],
+        "ELASTICSEARCH_HOST": [{"IP": "192.168.0.5","PORT": "5500"}]
+    },
+    "taekwondo_nm":{
+        "TEANA_DIALOGUE": [{"IP": "192.168.0.5","PORT": "5002"}],
+        "ELASTICSEARCH_HOST": [{"IP": "192.168.0.5","PORT": "5500"}]
+    },
+    "acc_children":{
+        "TEANA_DIALOGUE": [{"IP": "192.168.0.5","PORT": "5002"}],
+        "ELASTICSEARCH_HOST": [{"IP": "192.168.0.5","PORT": "5500"}]
+    }
+}
